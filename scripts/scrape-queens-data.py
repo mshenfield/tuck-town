@@ -76,6 +76,25 @@ def strip_footnotes(d):
         if FOOTNOTE_PATTERN.search(d[key]):
             d[key] = FOOTNOTE_PATTERN.sub("", d[key])
 
+def camel_case(s):
+    """Returns the camel case version of a string.
+
+    Example:
+    >>> camel_case("hello world")
+    "helloWorld"
+    """
+    # Handle the case of an empty string up front
+    # so we can safely modify the first character
+    # later
+    if not s:
+        return s
+
+    almost_camel = s.title().replace(" ", "")
+    return almost_camel[0].lower() + almost_camel[1:]
+
+def camel_case_keys(d):
+    return {camel_case(key): value for key, value in d.items()}
+ 
 season = None
 queens = []
 print("Collecting the girls")
@@ -100,6 +119,7 @@ queens_by_name = {
     q["Contestant"]: q
     for q in queens
 }
+
 print("Acknowledging the all stars")
 for queen in all_stars_data:
     # Remove lines like "Season 1, Season 1,..." and use
@@ -116,6 +136,9 @@ for queen in all_stars_data:
 
     queens_by_name[season_name]["Seasons"].append(all_stars_season)
     queens_by_name[season_name]["All Stars Outcome"] = queen["Outcome"]
+
+# e.g "All Stars Outcome" to "allStarsOutcome"
+queens = [camel_case_keys(q) for q in queens]
 
 output_file_path = "{}/queens.json".format(args.output_directory)
 with open(output_file_path, "w+") as output_file:
