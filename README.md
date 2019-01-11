@@ -4,7 +4,7 @@ Find the RuPaul's Drag contestant closest to you.
 This is still very much a WIP - stay tuned.
 
 ## Running
-`python3 -m http.server` and navigate to localhost:8000 to see the live site.
+`npm start` to start the app.  See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of commands.
 
 ## Tests 
 None yet 🐛🐛🐛
