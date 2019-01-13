@@ -1,6 +1,13 @@
 # Ignore the output of our scripts 
 data/output
 
+# Ignore vim .swp files
+*.swp
+
+# Ignore the .env.local file so that
+# folks can store their API key there 
+.env.local
+
 # Copied from github/gitignore
 # Logs
 logs

@@ -99,7 +99,7 @@ season = None
 queens = []
 print("Collecting the girls")
 for queen in season_data:
-    # Remove lines like "Season 1, Season 1,..." and use
+   # Remove lines like "Season 1, Season 1,..." and use
     # them to set the `season` variable
     if queen["Contestant"].startswith("Season "):
         season = queen["Contestant"]
@@ -112,6 +112,15 @@ for queen in season_data:
     # access the key for All Stars and non-All-Stars alike
     queen["All Stars Outcome"] = None
     strip_footnotes(queen)
+
+    # Use the first hometown if a queen has more than one
+    # e.g. "Los Angeles, California/ Boston, Massachusetts" to
+    # "Los Angeles, California"
+    if '/' in queen['Hometown']:
+        print(
+            f'Choosing first hometown for {queen["Contestant"]} with hometowns {queen["Hometown"]}'
+        )
+        queen['Hometown'] = queen['Hometown'].split('/')[0]
 
     queens.append(queen)
 
@@ -137,11 +146,17 @@ for queen in all_stars_data:
     queens_by_name[season_name]["Seasons"].append(all_stars_season)
     queens_by_name[season_name]["All Stars Outcome"] = queen["Outcome"]
 
-# e.g "All Stars Outcome" to "allStarsOutcome"
-queens = [camel_case_keys(q) for q in queens]
+
+output_queens = []
+for q in queens:
+    # e.g "All Stars Outcome" to "allStarsOutcome"
+    output_q = camel_case_keys(q)
+    # alias "contestant" to "name"
+    output_q["name"] = output_q["contestant"]
+    output_queens.append(output_q)
 
 output_file_path = "{}/queens.json".format(args.output_directory)
 with open(output_file_path, "w+") as output_file:
-    json.dump(queens, output_file)
+    json.dump(output_queens, output_file)
 
 print("Con-drag-ulations - you just won some delicious fresh queen data in {}".format(output_file_path))
