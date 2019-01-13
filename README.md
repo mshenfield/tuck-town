@@ -30,14 +30,6 @@ You can use the created API as the `REACT_APP_GOOGLE_API_KEY` in the [run comman
 ### Additional Commands
 See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of commands.
 
-Format of the API call is
-
-```
-https://maps.googleapis.com/maps/api/place/autocomplete/json?input={input}&types=(cities)&key=YOUR_API_KEY&sessiontoken={uuid-4}&components=country:us|country:gb
-```
-
-This limits the results to U.S. and U.K. cities, and groups by session, reducing costs.  All Drag Race queens (at least according to Wikipedia) have hometowns in the U.S. or the U.K.
-
 ## Tests 
 None yet 🐛🐛🐛
 
