@@ -52,19 +52,24 @@ export default class CitySearchForm extends Component {
         const google = window.google;
         this.autocomplete = new google.maps.places.Autocomplete(
             document.getElementById(this.elementId), 
-            {types: ["(cities)"]} // only allow selecting cities and towns
+            {
+                // only allow selecting cities and towns
+                types: ["(cities)"],
+                // For now, restrict results to the U.S. so
+                // there is some kind of computable, drivable 
+                // route. The way the call to Distance Matrix
+                // is structured right now means we'll only
+                // return a result if it can be driven to.
+                componentRestrictions: {country: 'us'}
+            } 
         );
 
         // Limit our results fields to _exactly_ what we need
         // to avoid getting billed for extra.
         this.autocomplete.setFields([
-            // City name to display above the list of queens.
-            // We could use the user input direclty, but this
-            // is prettier.
-            'formatted_address',
-            // We need the lat/long to find the closest
-            // Queen hometowns to the user-select city.
-            'geometry' 
+            // The formatted address can be used directly as
+            // an input to the Maps Distance Matrix API
+            'formatted_address'
         ]);
         this.autocomplete_listener_id = this.autocomplete.addListener('place_changed', this.onSelectCity);
     }
