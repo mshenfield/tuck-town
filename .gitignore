@@ -1,6 +1,7 @@
 # Ignore the output of our scripts 
 data/output
-
+# Ignore the output of our build
+build/
 # Ignore vim .swp files
 *.swp
 

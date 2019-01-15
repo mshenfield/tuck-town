@@ -30,6 +30,20 @@ You can use the created API as the `REACT_APP_GOOGLE_API_KEY` in the [run comman
 ### Additional Commands
 See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of commands.
 
+## Deployment
+`yarn run deploy`. You must have access to the gh-pages branch of the repository for this command to be succesful.
+
+## TODOS
+* Remove footnotes from All Stars rankings
+* Handle "Exact Match" when looking up "Seattle, WA" or another city with drag queens. This can be determined if the distance is below a certain threshhold.
+* Loading state when we're waiting for results from the DistanceMatrix API.
+
+* Error message if `ZERO_RESULTS` for all destinations. This can happen if they search for a non-U.S. or very remote U.S. city
+* Use promises to clean up the code that aggregates our results (Promise.all).
+
+* Stub libary for Places and DistanceMatrix APIs
+* Write some frontend tests
+
 ## Tests 
 None yet 🐛🐛🐛
 
