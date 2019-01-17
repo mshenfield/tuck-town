@@ -107,9 +107,10 @@ for queen in season_data:
 
     # Populate the "Seasons" key ourselves - in the data it comes
     # in as a separate row
-    queen["Seasons"] = [season]
-    # Add a null "All Stars Outcome" with None so we can safely
-    # access the key for All Stars and non-All-Stars alike
+    queen["Season"] = season
+    # Add a null "All Stars Season" and "All Stars Outcome" with None
+    # so we can safely access the key for All Stars and non-All-Stars alike
+    queen["All Stars Season"] = None
     queen["All Stars Outcome"] = None
     strip_footnotes(queen)
 
@@ -129,23 +130,29 @@ queens_by_name = {
     for q in queens
 }
 
+all_stars_season = None
 print("Acknowledging the all stars")
-for queen in all_stars_data:
+for all_star_queen in all_stars_data:
     # Remove lines like "Season 1, Season 1,..." and use
     # them to set the `all_stars_season` variable
-    if queen["Contestant"].startswith("Season "):
+    if all_star_queen["Contestant"].startswith("Season "):
         # e.g. "All Stars Season 1"
-        all_stars_season = "All Stars {}".format(queen["Contestant"])
+        all_stars_season = "All Stars {}".format(all_star_queen["Contestant"])
         continue
 
-    if queen["Contestant"] in ALLSTAR_TO_SEASON_NAME:
-        season_name = ALLSTAR_TO_SEASON_NAME[queen["Contestant"]]
-    else:
-        season_name = queen["Contestant"]
+    # We've manually mapped the names of the queens in their original
+    # season to their names in all stars, if they differ. Note that
+    # if the queens are not in the mapping, we just use the name in
+    # the data. 
+    season_name = ALLSTAR_TO_SEASON_NAME.get(
+        all_star_queen["Contestant"],
+        all_star_queen["Contestant"],
+    )
 
-    queens_by_name[season_name]["Seasons"].append(all_stars_season)
-    queens_by_name[season_name]["All Stars Outcome"] = queen["Outcome"]
-
+    queens_by_name[season_name]["All Stars Season"] = all_stars_season
+    queens_by_name[season_name]["All Stars Outcome"] = all_star_queen["Outcome"]
+    # Strip footnotes again - they may be in the "Outcome" or "All Stars Season"
+    strip_footnotes(queens_by_name[season_name])
 
 output_queens = []
 for q in queens:

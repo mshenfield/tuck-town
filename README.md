@@ -34,7 +34,6 @@ See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of
 `yarn run deploy`. You must have access to the gh-pages branch of the repository for this command to be succesful.
 
 ## TODOS
-* Remove footnotes from All Stars rankings
 * Handle "Exact Match" when looking up "Seattle, WA" or another city with drag queens. This can be determined if the distance is below a certain threshhold.
 * Loading state when we're waiting for results from the DistanceMatrix API.
 

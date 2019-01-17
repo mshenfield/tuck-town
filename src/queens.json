@@ -4,7 +4,8 @@
     "age": "28",
     "hometown": "Minneapolis, Minnesota",
     "outcome": "Winner",
-    "seasons": ["Season 1", "All Stars Season 3"],
+    "season": "Season 1",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "3rd",
     "name": "BeBe Zahara Benet"
   },
@@ -13,7 +14,8 @@
     "age": "34",
     "hometown": "Bayam\u00f3n, Puerto Rico",
     "outcome": "Runner-up",
-    "seasons": ["Season 1", "All Stars Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "9th/10th",
     "name": "Nina Flowers"
   },
@@ -22,7 +24,8 @@
     "age": "26",
     "hometown": "Fort Lauderdale, Florida",
     "outcome": "3rd",
-    "seasons": ["Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Rebecca Glasscock"
   },
@@ -31,7 +34,8 @@
     "age": "26",
     "hometown": "Las Vegas, Nevada",
     "outcome": "4th",
-    "seasons": ["Season 1", "All Stars Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "3rd/4th",
     "name": "Shannel"
   },
@@ -40,7 +44,8 @@
     "age": "26",
     "hometown": "Los Angeles, California",
     "outcome": "5th",
-    "seasons": ["Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Ongina"
   },
@@ -49,7 +54,8 @@
     "age": "32",
     "hometown": "Chicago, Illinois",
     "outcome": "6th",
-    "seasons": ["Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jade Sotomayor"
   },
@@ -58,7 +64,8 @@
     "age": "32",
     "hometown": "Cleveland, Ohio",
     "outcome": "7th",
-    "seasons": ["Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Akashia"
   },
@@ -67,7 +74,8 @@
     "age": "36",
     "hometown": "Los Angeles, California",
     "outcome": "8th",
-    "seasons": ["Season 1", "All Stars Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "9th/10th",
     "name": "Tammie Brown"
   },
@@ -76,7 +84,8 @@
     "age": "39",
     "hometown": "Raleigh, North Carolina",
     "outcome": "9th",
-    "seasons": ["Season 1"],
+    "season": "Season 1",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Victoria \"Porkchop\" Parker"
   },
@@ -85,7 +94,8 @@
     "age": "21",
     "hometown": "Orlando, Florida",
     "outcome": "Winner",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Tyra Sanchez"
   },
@@ -94,7 +104,8 @@
     "age": "30",
     "hometown": "Riverside, California",
     "outcome": "Runner-up",
-    "seasons": ["Season 2", "All Stars Season 1"],
+    "season": "Season 2",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "Runner-up",
     "name": "Raven"
   },
@@ -103,7 +114,8 @@
     "age": "25",
     "hometown": "Boston, Massachusetts",
     "outcome": "3rd",
-    "seasons": ["Season 2", "All Stars Season 1"],
+    "season": "Season 2",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "3rd/4th",
     "name": "Jujubee"
   },
@@ -112,8 +124,9 @@
     "age": "21",
     "hometown": "Falls Church, Virginia",
     "outcome": "4th",
-    "seasons": ["Season 2", "All Stars Season 2"],
-    "allStarsOutcome": "6th[b]",
+    "season": "Season 2",
+    "allStarsSeason": "All Stars Season 2",
+    "allStarsOutcome": "6th",
     "name": "Tatianna"
   },
   {
@@ -121,7 +134,8 @@
     "age": "37",
     "hometown": "Rochester, New York",
     "outcome": "5th",
-    "seasons": ["Season 2", "All Stars Season 1"],
+    "season": "Season 2",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "11th/12th",
     "name": "Pandora Boxx"
   },
@@ -130,7 +144,8 @@
     "age": "29",
     "hometown": "San Juan, Puerto Rico",
     "outcome": "6th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jessica Wild"
   },
@@ -139,7 +154,8 @@
     "age": "25",
     "hometown": "New York, New York",
     "outcome": "7th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Sahara Davenport"
   },
@@ -148,8 +164,9 @@
     "age": "28",
     "hometown": "Mira Loma, California",
     "outcome": "8th",
-    "seasons": ["Season 2", "All Stars Season 3"],
-    "allStarsOutcome": "5th[d]",
+    "season": "Season 2",
+    "allStarsSeason": "All Stars Season 3",
+    "allStarsOutcome": "5th",
     "name": "Morgan McMichaels"
   },
   {
@@ -157,7 +174,8 @@
     "age": "26",
     "hometown": "Atlanta, Georgia",
     "outcome": "9th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Sonique"
   },
@@ -166,7 +184,8 @@
     "age": "25",
     "hometown": "Chicago, Illinois",
     "outcome": "10th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Mystique Summers Madison"
   },
@@ -175,7 +194,8 @@
     "age": "36",
     "hometown": "Atlanta, Georgia",
     "outcome": "11th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Nicole Paige Brooks"
   },
@@ -184,7 +204,8 @@
     "age": "28",
     "hometown": "Paris, Texas",
     "outcome": "12th",
-    "seasons": ["Season 2"],
+    "season": "Season 2",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Shangela"
   },
@@ -193,7 +214,8 @@
     "age": "36",
     "hometown": "Los Angeles, California",
     "outcome": "Winner",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Raja"
   },
@@ -202,7 +224,8 @@
     "age": "28",
     "hometown": "Cottage Grove, Minnesota",
     "outcome": "Runner-up",
-    "seasons": ["Season 3", "All Stars Season 1"],
+    "season": "Season 3",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "7th/8th",
     "name": "Manila Luzon"
   },
@@ -211,7 +234,8 @@
     "age": "30",
     "hometown": "Saint Petersburg, Florida",
     "outcome": "3rd",
-    "seasons": ["Season 3", "All Stars Season 1"],
+    "season": "Season 3",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "5th/6th",
     "name": "Alexis Mateo"
   },
@@ -220,7 +244,8 @@
     "age": "26",
     "hometown": "Manat\u00ed, Puerto Rico",
     "outcome": "4th",
-    "seasons": ["Season 3", "All Stars Season 1"],
+    "season": "Season 3",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "5th/6th",
     "name": "Yara Sofia"
   },
@@ -229,7 +254,8 @@
     "age": "25",
     "hometown": "Elmwood Park, New Jersey",
     "outcome": "5th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Carmen Carrera"
   },
@@ -238,7 +264,8 @@
     "age": "29",
     "hometown": "Paris, Texas",
     "outcome": "6th",
-    "seasons": ["Season 3", "All Stars Season 3", "All Stars Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "4th",
     "name": "Shangela"
   },
@@ -247,7 +274,8 @@
     "age": "34",
     "hometown": "Norwalk, California",
     "outcome": "7th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Delta Work"
   },
@@ -256,7 +284,8 @@
     "age": "25",
     "hometown": "Back Swamp, North Carolina",
     "outcome": "8th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Stacy Layne Matthews"
   },
@@ -265,7 +294,8 @@
     "age": "29",
     "hometown": "Atlanta, Georgia",
     "outcome": "9th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Mariah"
   },
@@ -274,7 +304,8 @@
     "age": "23",
     "hometown": "Dayton, Ohio",
     "outcome": "10th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "India Ferrah"
   },
@@ -283,7 +314,8 @@
     "age": "27",
     "hometown": "New York, New York",
     "outcome": "11th",
-    "seasons": ["Season 3", "All Stars Season 1"],
+    "season": "Season 3",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "11th/12th",
     "name": "Mimi Imfurst"
   },
@@ -292,7 +324,8 @@
     "age": "29",
     "hometown": "Atlanta, Georgia",
     "outcome": "12th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Phoenix"
   },
@@ -301,7 +334,8 @@
     "age": "26",
     "hometown": "Los Angeles, California",
     "outcome": "13th",
-    "seasons": ["Season 3"],
+    "season": "Season 3",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Venus D-Lite"
   },
@@ -310,7 +344,8 @@
     "age": "29",
     "hometown": "Pittsburgh, Pennsylvania",
     "outcome": "Winner",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Sharon Needles"
   },
@@ -319,7 +354,8 @@
     "age": "40",
     "hometown": "San Diego, California",
     "outcome": "Runner-up",
-    "seasons": ["Season 4", "All Stars Season 1"],
+    "season": "Season 4",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "Winner",
     "name": "Chad Michaels"
   },
@@ -328,7 +364,8 @@
     "age": "25",
     "hometown": "Chicago, Illinois",
     "outcome": "Runner-up",
-    "seasons": ["Season 4", "All Stars Season 2"],
+    "season": "Season 4",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "7th",
     "name": "Phi Phi O'Hara"
   },
@@ -337,7 +374,8 @@
     "age": "39",
     "hometown": "South Beach, Florida",
     "outcome": "4th",
-    "seasons": ["Season 4", "All Stars Season 1"],
+    "season": "Season 4",
+    "allStarsSeason": "All Stars Season 1",
     "allStarsOutcome": "7th/8th",
     "name": "Latrice Royale"
   },
@@ -346,7 +384,8 @@
     "age": "21",
     "hometown": "Dorado, Puerto Rico",
     "outcome": "5th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kenya Michaels"
   },
@@ -355,7 +394,8 @@
     "age": "25",
     "hometown": "Chicago, Illinois",
     "outcome": "6th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "DiDa Ritz"
   },
@@ -364,7 +404,8 @@
     "age": "29",
     "hometown": "Los Angeles, California",
     "outcome": "7th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Willam"
   },
@@ -373,7 +414,8 @@
     "age": "30",
     "hometown": "Queens, New York",
     "outcome": "8th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jiggly Caliente"
   },
@@ -382,7 +424,8 @@
     "age": "36",
     "hometown": "Florence, South Carolina",
     "outcome": "9th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Milan"
   },
@@ -391,7 +434,8 @@
     "age": "29",
     "hometown": "Carolina, Puerto Rico",
     "outcome": "10th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Madame LaQueer"
   },
@@ -400,7 +444,8 @@
     "age": "32",
     "hometown": "Chicago, Illinois",
     "outcome": "11th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "The Princess"
   },
@@ -409,7 +454,8 @@
     "age": "21",
     "hometown": "Fort Lauderdale,Florida",
     "outcome": "12th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Lashauwn Beyond"
   },
@@ -418,7 +464,8 @@
     "age": "23",
     "hometown": "Tampa, Florida",
     "outcome": "13th",
-    "seasons": ["Season 4"],
+    "season": "Season 4",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Alisa Summers"
   },
@@ -427,7 +474,8 @@
     "age": "24",
     "hometown": "Seattle, Washington",
     "outcome": "Winner",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jinkx Monsoon"
   },
@@ -436,7 +484,8 @@
     "age": "27",
     "hometown": "Pittsburgh, Pennsylvania",
     "outcome": "Runner-up",
-    "seasons": ["Season 5", "All Stars Season 2"],
+    "season": "Season 5",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "Winner",
     "name": "Alaska"
   },
@@ -445,7 +494,8 @@
     "age": "28",
     "hometown": "Orlando, Florida",
     "outcome": "Runner-up",
-    "seasons": ["Season 5", "All Stars Season 2"],
+    "season": "Season 5",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "4th",
     "name": "Roxxxy Andrews"
   },
@@ -454,7 +504,8 @@
     "age": "27",
     "hometown": "Los Angeles, California",
     "outcome": "4th",
-    "seasons": ["Season 5", "All Stars Season 2"],
+    "season": "Season 5",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "Runner-up",
     "name": "Detox"
   },
@@ -463,7 +514,8 @@
     "age": "37",
     "hometown": "Las Vegas, Nevada",
     "outcome": "5th",
-    "seasons": ["Season 5", "All Stars Season 2"],
+    "season": "Season 5",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "10th",
     "name": "Coco Montrese"
   },
@@ -472,8 +524,9 @@
     "age": "32",
     "hometown": "Mesquite, Texas",
     "outcome": "6th",
-    "seasons": ["Season 5", "All Stars Season 2"],
-    "allStarsOutcome": "5th[a]",
+    "season": "Season 5",
+    "allStarsSeason": "All Stars Season 2",
+    "allStarsOutcome": "5th",
     "name": "Alyssa Edwards"
   },
   {
@@ -481,7 +534,8 @@
     "age": "26",
     "hometown": "New York, New York",
     "outcome": "7th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Ivy Winters"
   },
@@ -490,7 +544,8 @@
     "age": "25",
     "hometown": "Gainesville, Florida",
     "outcome": "8th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jade Jolie"
   },
@@ -499,7 +554,8 @@
     "age": "24",
     "hometown": "San Juan, Puerto Rico",
     "outcome": "9th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Lineysha Sparx"
   },
@@ -508,7 +564,8 @@
     "age": "26",
     "hometown": "New York, New York",
     "outcome": "10th/11th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Vivienne Pinay"
   },
@@ -517,7 +574,8 @@
     "age": "29",
     "hometown": "San Francisco, California",
     "outcome": "10th/11th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Honey Mahogany"
   },
@@ -526,7 +584,8 @@
     "age": "27",
     "hometown": "Owensboro, Kentucky",
     "outcome": "12th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Monica Beverly Hillz"
   },
@@ -535,7 +594,8 @@
     "age": "21",
     "hometown": "Tallahassee, Florida",
     "outcome": "13th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Serena ChaCha"
   },
@@ -544,7 +604,8 @@
     "age": "39",
     "hometown": "Cincinnati, Ohio",
     "outcome": "14th",
-    "seasons": ["Season 5"],
+    "season": "Season 5",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Penny Tration"
   },
@@ -553,7 +614,8 @@
     "age": "36",
     "hometown": "New Orleans, Louisiana",
     "outcome": "Winner",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Bianca Del Rio"
   },
@@ -562,8 +624,9 @@
     "age": "23",
     "hometown": "Azusa, California",
     "outcome": "Runner-up",
-    "seasons": ["Season 6", "All Stars Season 2"],
-    "allStarsOutcome": "9th[c]",
+    "season": "Season 6",
+    "allStarsSeason": "All Stars Season 2",
+    "allStarsOutcome": "9th",
     "name": "Adore Delano"
   },
   {
@@ -571,7 +634,8 @@
     "age": "31",
     "hometown": "West Hollywood, California",
     "outcome": "Runner-up",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Courtney Act"
   },
@@ -580,7 +644,8 @@
     "age": "41",
     "hometown": "Rochester, New York",
     "outcome": "4th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Darienne Lake"
   },
@@ -589,8 +654,9 @@
     "age": "31",
     "hometown": "Seattle, Washington",
     "outcome": "5th",
-    "seasons": ["Season 6", "All Stars Season 3"],
-    "allStarsOutcome": "6th[e]",
+    "season": "Season 6",
+    "allStarsSeason": "All Stars Season 3",
+    "allStarsOutcome": "6th",
     "name": "BenDeLaCreme"
   },
   {
@@ -598,7 +664,8 @@
     "age": "26",
     "hometown": "Worcester, Massachusetts",
     "outcome": "6th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Joslyn Fox"
   },
@@ -607,7 +674,8 @@
     "age": "22",
     "hometown": "Atlanta, Georgia",
     "outcome": "7th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Trinity K. Bonet"
   },
@@ -616,7 +684,8 @@
     "age": "24",
     "hometown": "Van Nuys, California",
     "outcome": "8th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Laganja Estranja"
   },
@@ -625,7 +694,8 @@
     "age": "25",
     "hometown": "New York, New York",
     "outcome": "9th",
-    "seasons": ["Season 6", "All Stars Season 3"],
+    "season": "Season 6",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "9th",
     "name": "Milk"
   },
@@ -634,7 +704,8 @@
     "age": "23",
     "hometown": "Chicago, Illinois",
     "outcome": "10th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Gia Gunn"
   },
@@ -643,7 +714,8 @@
     "age": "24",
     "hometown": "Guaynabo, Puerto Rico",
     "outcome": "11th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "April Carri\u00f3n"
   },
@@ -652,7 +724,8 @@
     "age": "40",
     "hometown": "New York, New York",
     "outcome": "12th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Vivacious"
   },
@@ -661,7 +734,8 @@
     "age": "27",
     "hometown": "Seattle, Washington",
     "outcome": "13th/14th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Magnolia Crawford"
   },
@@ -670,7 +744,8 @@
     "age": "37",
     "hometown": "Los Angeles, California",
     "outcome": "13th/14th",
-    "seasons": ["Season 6"],
+    "season": "Season 6",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kelly Mantle"
   },
@@ -679,7 +754,8 @@
     "age": "22",
     "hometown": "Atlanta, Georgia",
     "outcome": "Winner",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Violet Chachki"
   },
@@ -688,7 +764,8 @@
     "age": "29",
     "hometown": "Orlando, Florida",
     "outcome": "Runner-up",
-    "seasons": ["Season 7", "All Stars Season 2"],
+    "season": "Season 7",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "8th",
     "name": "Ginger Minj"
   },
@@ -697,7 +774,8 @@
     "age": "23",
     "hometown": "Brooklyn, New York",
     "outcome": "Runner-up",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Pearl Liaison"
   },
@@ -706,7 +784,8 @@
     "age": "33",
     "hometown": "Dallas, Texas",
     "outcome": "4th",
-    "seasons": ["Season 7", "All Stars Season 3"],
+    "season": "Season 7",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "Runner-up",
     "name": "Kennedy Davenport"
   },
@@ -715,7 +794,8 @@
     "age": "32",
     "hometown": "Boston, Massachusetts",
     "outcome": "5th",
-    "seasons": ["Season 7", "All Stars Season 2"],
+    "season": "Season 7",
+    "allStarsSeason": "All Stars Season 2",
     "allStarsOutcome": "Runner-up",
     "name": "Katya Zamolodchikova"
   },
@@ -724,7 +804,8 @@
     "age": "26",
     "hometown": "Milwaukee, Wisconsin",
     "outcome": "6th",
-    "seasons": ["Season 7", "All Stars Season 3"],
+    "season": "Season 7",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "Winner",
     "name": "Trixie Mattel"
   },
@@ -733,7 +814,8 @@
     "age": "29",
     "hometown": "New York, New York",
     "outcome": "7th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Miss Fame"
   },
@@ -742,7 +824,8 @@
     "age": "25",
     "hometown": "Nashville, Tennessee",
     "outcome": "8th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jaidynn Diore Fierce"
   },
@@ -751,7 +834,8 @@
     "age": "22",
     "hometown": "Hudson, Wisconsin",
     "outcome": "9th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Max"
   },
@@ -760,7 +844,8 @@
     "age": "28",
     "hometown": "Cayey, Puerto Rico",
     "outcome": "10th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kandy Ho"
   },
@@ -769,7 +854,8 @@
     "age": "43",
     "hometown": "Rochester, New York",
     "outcome": "11th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Mrs. Kasha Davis"
   },
@@ -778,7 +864,8 @@
     "age": "37",
     "hometown": "Los Angeles, California",
     "outcome": "12th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jasmine Masters"
   },
@@ -787,7 +874,8 @@
     "age": "28",
     "hometown": "Iowa City, Iowa",
     "outcome": "13th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Sasha Belle"
   },
@@ -796,7 +884,8 @@
     "age": "46",
     "hometown": "Tucson, Arizona",
     "outcome": "14th",
-    "seasons": ["Season 7"],
+    "season": "Season 7",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Tempest DuJour"
   },
@@ -805,7 +894,8 @@
     "age": "29",
     "hometown": "Brooklyn, New York",
     "outcome": "Winner",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Bob the Drag Queen"
   },
@@ -814,7 +904,8 @@
     "age": "27",
     "hometown": "Chicago, Illinois",
     "outcome": "Runner-up",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kim Chi"
   },
@@ -823,7 +914,8 @@
     "age": "21",
     "hometown": "Redlands, California",
     "outcome": "Runner-up",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Naomi Smalls"
   },
@@ -832,7 +924,8 @@
     "age": "30",
     "hometown": "Shreveport, Louisiana",
     "outcome": "4th",
-    "seasons": ["Season 8", "All Stars Season 3"],
+    "season": "Season 8",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "8th",
     "name": "Chi Chi DeVayne"
   },
@@ -841,7 +934,8 @@
     "age": "32",
     "hometown": "Las Vegas, Nevada",
     "outcome": "5th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Derrick Barry"
   },
@@ -850,7 +944,8 @@
     "age": "31",
     "hometown": "Brooklyn, New York",
     "outcome": "6th",
-    "seasons": ["Season 8", "All Stars Season 3"],
+    "season": "Season 8",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "10th",
     "name": "Thorgy Thor"
   },
@@ -859,7 +954,8 @@
     "age": "33",
     "hometown": "Seattle, Washington",
     "outcome": "7th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Robbie Turner"
   },
@@ -868,7 +964,8 @@
     "age": "37",
     "hometown": "Brooklyn, New York",
     "outcome": "8th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Acid Betty"
   },
@@ -877,7 +974,8 @@
     "age": "31",
     "hometown": "Chicago, Illinois",
     "outcome": "9th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Naysha Lopez"
   },
@@ -886,7 +984,8 @@
     "age": "34",
     "hometown": "Austin, Texas",
     "outcome": "10th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Cynthia Lee Fontaine"
   },
@@ -895,7 +994,8 @@
     "age": "31",
     "hometown": "Savannah, Georgia",
     "outcome": "11th/12th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Dax ExclamationPoint"
   },
@@ -904,7 +1004,8 @@
     "age": "22",
     "hometown": "Gloucester, Massachusetts",
     "outcome": "11th/12th",
-    "seasons": ["Season 8"],
+    "season": "Season 8",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Laila McQueen"
   },
@@ -913,7 +1014,8 @@
     "age": "29",
     "hometown": "Brooklyn, New York",
     "outcome": "Winner",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Sasha Velour"
   },
@@ -922,7 +1024,8 @@
     "age": "37",
     "hometown": "New York, New York",
     "outcome": "Runner-up",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Peppermint"
   },
@@ -931,7 +1034,8 @@
     "age": "27",
     "hometown": "Chicago, Illinois",
     "outcome": "3rd/4th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Shea Coule\u00e9"
   },
@@ -940,7 +1044,8 @@
     "age": "31",
     "hometown": "Orlando, Florida",
     "outcome": "3rd/4th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Trinity Taylor"
   },
@@ -949,7 +1054,8 @@
     "age": "33",
     "hometown": "New York, New York",
     "outcome": "5th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Alexis Michelle"
   },
@@ -958,7 +1064,8 @@
     "age": "34",
     "hometown": "Atlanta, Georgia",
     "outcome": "6th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Nina Bo'nina Brown"
   },
@@ -967,7 +1074,8 @@
     "age": "25",
     "hometown": "Los Angeles, California",
     "outcome": "7th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Valentina"
   },
@@ -976,7 +1084,8 @@
     "age": "23",
     "hometown": "Las Vegas, Nevada",
     "outcome": "8th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Farrah Moan"
   },
@@ -985,7 +1094,8 @@
     "age": "22",
     "hometown": "Brooklyn, New York",
     "outcome": "9th",
-    "seasons": ["Season 9", "All Stars Season 3"],
+    "season": "Season 9",
+    "allStarsSeason": "All Stars Season 3",
     "allStarsOutcome": "7th",
     "name": "Aja"
   },
@@ -994,7 +1104,8 @@
     "age": "34",
     "hometown": "Austin, Texas",
     "outcome": "10th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Cynthia Lee Fontaine"
   },
@@ -1003,16 +1114,18 @@
     "age": "25",
     "hometown": "Johnson City, Tennessee",
     "outcome": "11th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Eureka O'Hara"
   },
   {
     "contestant": "Charlie Hides",
     "age": "52",
-    "hometown": "London, UK/ Boston, Massachusetts",
+    "hometown": "London, UK",
     "outcome": "12th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Charlie Hides"
   },
@@ -1021,7 +1134,8 @@
     "age": "28",
     "hometown": "Las Vegas, Nevada",
     "outcome": "13th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kimora Blac"
   },
@@ -1030,7 +1144,8 @@
     "age": "26",
     "hometown": "Madison, Wisconsin",
     "outcome": "14th",
-    "seasons": ["Season 9"],
+    "season": "Season 9",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Jaymes Mansfield"
   },
@@ -1039,7 +1154,8 @@
     "age": "21",
     "hometown": "Brooklyn, New York",
     "outcome": "Winner",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Aquaria"
   },
@@ -1048,7 +1164,8 @@
     "age": "27",
     "hometown": "Johnson City, Tennessee",
     "outcome": "Runner-up",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Eureka"
   },
@@ -1057,7 +1174,8 @@
     "age": "31",
     "hometown": "Nashville, Tennessee",
     "outcome": "Runner-up",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kameron Michaels"
   },
@@ -1066,7 +1184,8 @@
     "age": "35",
     "hometown": "Dallas, Texas",
     "outcome": "4th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Asia O'Hara"
   },
@@ -1075,7 +1194,8 @@
     "age": "33",
     "hometown": "Harlem, New York",
     "outcome": "5th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Miz Cracker"
   },
@@ -1084,7 +1204,8 @@
     "age": "31",
     "hometown": "The Bronx, New York",
     "outcome": "6th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Mon\u00e9t X Change"
   },
@@ -1093,7 +1214,8 @@
     "age": "26",
     "hometown": "Chicago, Illinois",
     "outcome": "7th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "The Vixen"
   },
@@ -1102,7 +1224,8 @@
     "age": "27",
     "hometown": "Kansas City, Missouri",
     "outcome": "8th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Monique Heart"
   },
@@ -1111,7 +1234,8 @@
     "age": "22",
     "hometown": "Indianapolis, Indiana",
     "outcome": "9th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Blair St. Clair"
   },
@@ -1120,7 +1244,8 @@
     "age": "35",
     "hometown": "Riverside, California",
     "outcome": "10th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Mayhem Miller"
   },
@@ -1129,7 +1254,8 @@
     "age": "29",
     "hometown": "New York, New York",
     "outcome": "11th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Dusty Ray Bottoms"
   },
@@ -1138,7 +1264,8 @@
     "age": "27",
     "hometown": "New York, New York",
     "outcome": "12th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Yuhua Hamasaki"
   },
@@ -1147,7 +1274,8 @@
     "age": "27",
     "hometown": "Albuquerque, New Mexico",
     "outcome": "13th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Kalorie Karbdashian Williams"
   },
@@ -1156,7 +1284,8 @@
     "age": "25",
     "hometown": "Tampa, Florida",
     "outcome": "14th",
-    "seasons": ["Season 10"],
+    "season": "Season 10",
+    "allStarsSeason": null,
     "allStarsOutcome": null,
     "name": "Vanessa Vanjie Mateo"
   }
