@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import minBy from "lodash.minby";
+import minBy from 'lodash.minby';
 
-import CitySearchForm from "./CitySearchForm.js";
-import QueensList from "./QueensList.js";
+import CitySearchForm from './CitySearchForm.js';
+import QueensList from './QueensList.js';
 
 import logo from './logo.svg';
 import './App.css';
@@ -11,8 +11,8 @@ import './App.css';
 // cityCoords were manually generated
 // using the google.maps.Geocoder in
 // the browser console.
-import cityCoords from "./cityCoords.json";
-import queens from "./queens.json";
+import cityCoords from './cityCoords.json';
+import queens from './queens.json';
 
 /* Calculates the distance as the crow flies between two points (lat/long pairs)
 
@@ -82,10 +82,9 @@ class App extends Component {
       const closestQueens = queens.filter(
         q => q.hometown === this.state.closest.name
       );
-      queensList = (<QueensList
-        closestCity={this.state.closest}
-        queens={closestQueens}
-      />);
+      queensList = (
+        <QueensList closestCity={this.state.closest} queens={closestQueens} />
+      );
     }
 
     return (
@@ -95,19 +94,20 @@ class App extends Component {
             <nav>
               <img alt="Tuck Town logo" className="logo" src={logo} />
             </nav>
-            <div className="Separator"/>
+            <div className="Separator" />
             <div className="HeroImage-cta">
               <header>
                 <h1>Find the Closest Rupaul’s Drag Race Queen!</h1>
               </header>
-              <CitySearchForm className="CitySearchForm" handleSelectCity={this.handleSelectCity} />
+              <CitySearchForm
+                className="CitySearchForm"
+                handleSelectCity={this.handleSelectCity}
+              />
             </div>
           </div>
         </div>
         <main>
-          <div class="Content">
-            {queensList}
-          </div>
+          <div class="Content">{queensList}</div>
         </main>
       </div>
     );
