@@ -107,7 +107,7 @@ class App extends Component {
           </div>
         </div>
         <main>
-          <div class="Content">{queensList}</div>
+          <div className="Content">{queensList}</div>
         </main>
       </div>
     );

@@ -1,12 +1,16 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
 }
 
 .HeroImage {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.5)),
-                    url("neon-rainbow.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.74),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('neon-rainbow.jpg');
   background-position: center;
   background-size: auto 100%;
   color: #fff;
@@ -14,15 +18,14 @@ html {
 }
 
 .HeroImage-content {
-    padding: 16px;
+  padding: 16px;
+  margin: auto;
 }
 
 .HeroImage-cta {
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
-  /* Add back the margin, which we seem to lose with the transform */
-  margin-right: 16px;
 }
 
 .Separator {
@@ -31,14 +34,15 @@ html {
   margin-left: -16px;
 }
 nav .logo {
-    /* Roughly 4 columns in a 12 column grid */
-    width: 33%;
-    margin-bottom: 16px;
+  max-width: 200px;
+  /* Roughly 4 columns in a 12 column grid */
+  width: 33%;
+  margin-bottom: 16px;
 }
 
 h1 {
-    font-size: 24px;
-    text-align: center;
+  font-size: 24px;
+  text-align: center;
 }
 
 h2 {
@@ -51,15 +55,15 @@ h3 {
 
 /* We have to repeate a lot of values here to override the default styling */
 #citySearchAutocomplete {
-    background-color: rgba(87, 87, 87, 0.59);
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    padding: 16px 0px;
-    /* This pushes the entire text box to the right, compensate by reducing width */
-    padding-left: 8px;
-    /* Because this is absolutely positioned, we have to do some tricks */
-    width: calc(100% - 8px);
+  background-color: rgba(87, 87, 87, 0.59);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 0px;
+  /* This pushes the entire text box to the right, compensate by reducing width */
+  padding-left: 8px;
+  /* Because this is absolutely positioned, we have to do some tricks */
+  width: calc(100% - 8px);
 }
 
 /* Make the placeholder match the text color */
@@ -79,29 +83,4 @@ main .Content {
 
 .QueensList {
   padding-left: 0;
-}
-
-.QueenCard {
-  box-shadow: 9px 13px 24px 0 rgba(0, 0, 0, 0.22);
-  list-style: none;
-  margin: 16px;
-}
-
-.QueenCard > div {
-  padding: 16px;
-}
-
-.QueenCard .col1 {
-  display: inline-block;
-  width: 33%;
-}
-
-.QueenCard .col2and3 {
-  display: inline-block;
-  padding: 16px;
-  width: 55%;
-}
-
-.QueenCard img {
-  width: 100%;
 }

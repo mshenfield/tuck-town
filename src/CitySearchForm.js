@@ -1,9 +1,10 @@
 /*
- * An address search form that only includes cities in the autocomplete and result
+ * An address search form that only includes locations in the
+ * autocomplete and result
  */
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-/* Google Maps Autocomplete widget that returns cities
+/* Google Maps Autocomplete widget that returns locations
 
 This is tightly coupled to the App. Only one can exist
 on a page because the `id` of the input is hard coded,
@@ -26,7 +27,7 @@ export default class CitySearchForm extends Component {
     super(props);
     this.autocomplete = null;
     this.autocomplete_listener_id = null;
-    this.elementId = "citySearchAutocomplete";
+    this.elementId = 'citySearchAutocomplete';
     this.selectCityHook = props.handleSelectCity;
 
     // bind callbacks to class
@@ -54,8 +55,9 @@ export default class CitySearchForm extends Component {
     this.autocomplete = new google.maps.places.Autocomplete(
       document.getElementById(this.elementId),
       {
-        // only allow selecting cities and towns
-        types: ["(cities)"]
+        // We'd like to be more specific, but the "(cities)" option excludes
+        // neighborhoods.
+        types: ['(regions)']
       }
     );
 
@@ -65,10 +67,10 @@ export default class CitySearchForm extends Component {
       // The lat/lng of the city. Can be used
       // to calculate distance from the lat/lng
       // of Queen's cities to find the closest.
-      "geometry"
+      'geometry'
     ]);
     this.autocomplete_listener_id = this.autocomplete.addListener(
-      "place_changed",
+      'place_changed',
       this.onSelectCity
     );
   }
@@ -96,7 +98,9 @@ export default class CitySearchForm extends Component {
         {/* Uncontrolled input used by the autocomplete object*/}
         <input
           id={this.elementId}
-          type="text" placeholder="Enter a City" />
+          type="text"
+          placeholder="Enter a City or Postal Code"
+        />
       </form>
     );
   }
