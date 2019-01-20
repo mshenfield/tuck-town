@@ -54,22 +54,17 @@ export default class CitySearchForm extends Component {
       document.getElementById(this.elementId),
       {
         // only allow selecting cities and towns
-        types: ["(cities)"],
-        // For now, restrict results to the U.S. so
-        // there is some kind of computable, drivable
-        // route. The way the call to Distance Matrix
-        // is structured right now means we'll only
-        // return a result if it can be driven to.
-        componentRestrictions: { country: "us" }
+        types: ["(cities)"]
       }
     );
 
     // Limit our results fields to _exactly_ what we need
     // to avoid getting billed for extra.
     this.autocomplete.setFields([
-      // The formatted address can be used directly as
-      // an input to the Maps Distance Matrix API
-      "formatted_address"
+      // The lat/lng of the city. Can be used
+      // to calculate distance from the lat/lng
+      // of Queen's cities to find the closest.
+      "geometry"
     ]);
     this.autocomplete_listener_id = this.autocomplete.addListener(
       "place_changed",

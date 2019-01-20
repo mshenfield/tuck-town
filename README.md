@@ -10,6 +10,18 @@ This can be run using the following commands:
 REACT_APP_GOOGLE_API_KEY=<your-google-project-API-key> yarn start
 ```
 
+See the [Google API Setup][#google-api-setup] section to set up your API key.
+
+### Additional Commands
+See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of commands.
+
+## Setup
+
+### Generating queens.json
+Follow the instructions in `scripts/scrape-queens-data.py` to generate or add to `queens.json`. Make sure to copy the file to `src/queens.json` for it to be added to the project.
+
+WARNING: The above script is only compatible with `python3`.
+
 ### Google API Setup
 This project utilizes the Google Places Autocomplete widget, and the Google Distance Matrix API. To setup:
 
@@ -19,7 +31,6 @@ This project utilizes the Google Places Autocomplete widget, and the Google Dist
 * Search for and enable the following APIs
     * Maps JavaScript API
     * Places API for Web
-    * Distance Matrix API
 * Navigate to the "Credentials" menu
 * Follow steps to "Create credentials", making sure to select "API Key" from the dropdown.
 
@@ -27,20 +38,13 @@ WARNING: Enabling an API key _will_ charge money if you exceed the $200 usage li
 
 You can use the created API as the `REACT_APP_GOOGLE_API_KEY` in the [run command above](#running). You can also add your key to the .gitignor-ed `.env.local` file or use any of the [methods described here](https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables#adding-temporary-environment-variables-in-your-shell) to set it.
 
-### Additional Commands
-See the [Create React App Guide](./CREATE_REACT_APP_GUIDE.md) for a full list of commands.
+### Regenerating `cityCoords.json`
+`cityCoords.json` contains lat/lng coordinates for each city name that appears in `queens.json`.  New seasons may contain new cities. Grab the lat/lng any new cities by using any online address to lat/long tool. The original coords were generated using the Google Maps Geocoding API in the developer console.
 
 ## Deployment
 `yarn run deploy`. You must have access to the gh-pages branch of the repository for this command to be succesful.
 
 ## TODOS
-* Handle "Exact Match" when looking up "Seattle, WA" or another city with drag queens. This can be determined if the distance is below a certain threshhold.
-* Loading state when we're waiting for results from the DistanceMatrix API.
-
-* Error message if `ZERO_RESULTS` for all destinations. This can happen if they search for a non-U.S. or very remote U.S. city
-* Use promises to clean up the code that aggregates our results (Promise.all).
-
-* Stub libary for Places and DistanceMatrix APIs
 * Write some frontend tests
 
 ## Tests 
