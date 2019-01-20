@@ -41,6 +41,14 @@ h1 {
     text-align: center;
 }
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
 /* We have to repeate a lot of values here to override the default styling */
 #citySearchAutocomplete {
     background-color: rgba(87, 87, 87, 0.59);
@@ -57,4 +65,43 @@ h1 {
 /* Make the placeholder match the text color */
 #citySearchAutocomplete::placeholder {
   opacity: 1;
+}
+
+main {
+  background-color: white;
+  color: #4a4a4a;
+  margin-top: -70px;
+}
+
+main .Content {
+  margin: 16px;
+}
+
+.QueensList {
+  padding-left: 0;
+}
+
+.QueenCard {
+  box-shadow: 9px 13px 24px 0 rgba(0, 0, 0, 0.22);
+  list-style: none;
+  margin: 16px;
+}
+
+.QueenCard > div {
+  padding: 16px;
+}
+
+.QueenCard .col1 {
+  display: inline-block;
+  width: 33%;
+}
+
+.QueenCard .col2and3 {
+  display: inline-block;
+  padding: 16px;
+  width: 55%;
+}
+
+.QueenCard img {
+  width: 100%;
 }

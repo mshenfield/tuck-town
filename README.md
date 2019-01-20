@@ -45,6 +45,8 @@ You can use the created API as the `REACT_APP_GOOGLE_API_KEY` in the [run comman
 `yarn run deploy`. You must have access to the gh-pages branch of the repository for this command to be succesful.
 
 ## TODOS
+* Fix the margins/padding on the cards
+* Remove left margin from ul on cards or don't use ul
 * Write some frontend tests
 
 ## Tests 

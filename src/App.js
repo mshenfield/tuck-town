@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import minBy from "lodash.minby";
-import sortBy from "lodash.sortby";
 
 import CitySearchForm from "./CitySearchForm.js";
-import Queen from "./Queen.js";
+import QueensList from "./QueensList.js";
 
 import logo from './logo.svg';
 import './App.css';
@@ -83,19 +82,10 @@ class App extends Component {
       const closestQueens = queens.filter(
         q => q.hometown === this.state.closest.name
       );
-      const alphabetical = sortBy(closestQueens, q => q.name);
-      // Treat it as an exact match if it's closer than 2m
-      const distance =
-        this.state.closest.distance < 2
-          ? "Exact Match"
-          : Math.round(this.state.closest.distance) + " miles";
-      queensList = (
-        <div id="results">
-          <h2>{this.state.closest.name}</h2>
-          <em>{distance}</em>
-          <ul id="results-list">{alphabetical.map(q => Queen(q))}</ul>
-        </div>
-      );
+      queensList = (<QueensList
+        closestCity={this.state.closest}
+        queens={closestQueens}
+      />);
     }
 
     return (
@@ -115,7 +105,9 @@ class App extends Component {
           </div>
         </div>
         <main>
-          {queensList}
+          <div class="Content">
+            {queensList}
+          </div>
         </main>
       </div>
     );
