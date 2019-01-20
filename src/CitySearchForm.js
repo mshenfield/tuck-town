@@ -31,6 +31,7 @@ export default class CitySearchForm extends Component {
 
     // bind callbacks to class
     this.onSelectCity = this.onSelectCity.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
     this.initAutocomplete = this.initAutocomplete.bind(this);
   }
 
@@ -80,11 +81,22 @@ export default class CitySearchForm extends Component {
     this.selectCityHook(city);
   }
 
+  /* Disable the normal submit on the form
+
+    This means users have to select a city from the menu - they
+    can't press enter
+  */
+  onSubmit(event) {
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <form>
+      <form onSubmit={this.onSubmit}>
         {/* Uncontrolled input used by the autocomplete object*/}
-        <input id={this.elementId} type="text" placeholder="Enter a City" />
+        <input
+          id={this.elementId}
+          type="text" placeholder="Enter a City" />
       </form>
     );
   }
