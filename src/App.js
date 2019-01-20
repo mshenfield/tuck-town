@@ -6,6 +6,9 @@ import sortBy from "lodash.sortby";
 import CitySearchForm from "./CitySearchForm.js";
 import Queen from "./Queen.js";
 
+import logo from './logo.svg';
+import './App.css';
+
 // cityCoords were manually generated
 // using the google.maps.Geocoder in
 // the browser console.
@@ -96,15 +99,24 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Tuck Town</h1>
-        </header>
+      <div>
+        <div className="HeroImage">
+          <div className="HeroImage-content">
+            <nav>
+              <img alt="Tuck Town logo" className="logo" src={logo} />
+            </nav>
+            <div className="Separator"/>
+            <div className="HeroImage-cta">
+              <header>
+                <h1>Find the Closest Rupaul’s Drag Race Queen!</h1>
+              </header>
+              <CitySearchForm className="CitySearchForm" handleSelectCity={this.handleSelectCity} />
+            </div>
+          </div>
+        </div>
         <main>
-          <CitySearchForm handleSelectCity={this.handleSelectCity} />
-          <div id="results">{queensList}</div>
+          {queensList}
         </main>
-        <footer>{this.state.errorMessage}</footer>
       </div>
     );
   }

@@ -84,7 +84,7 @@ export default class CitySearchForm extends Component {
     return (
       <form>
         {/* Uncontrolled input used by the autocomplete object*/}
-        <input id={this.elementId} type="text" placeholder="Enter your city" />
+        <input id={this.elementId} type="text" placeholder="Enter a City" />
       </form>
     );
   }
