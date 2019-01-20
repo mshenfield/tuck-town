@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9230a4ba3ebe5eb6d075",
-    "url": "/static/css/main.00d29bb8.chunk.css"
+    "revision": "4f35849d4d58b9bbaaa7",
+    "url": "/static/css/main.b2a65919.chunk.css"
   },
   {
-    "revision": "9230a4ba3ebe5eb6d075",
-    "url": "/static/js/main.9230a4ba.chunk.js"
+    "revision": "4f35849d4d58b9bbaaa7",
+    "url": "/static/js/main.4f35849d.chunk.js"
   },
   {
     "revision": "ecd3c2bb3b1320a67b7d",
@@ -16,10 +16,6 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "47f96ac9b5b68b65dd0d9d3d6da4a495",
-    "url": "/static/media/lipstick.47f96ac9.jpg"
-  },
-  {
     "revision": "cb8fe1838a29d23c565d617698828f26",
     "url": "/static/media/logo.cb8fe183.svg"
   },
@@ -28,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/neon-rainbow.2c48a185.jpg"
   },
   {
-    "revision": "888949375c603d678c2e4a07ebdfcd37",
+    "revision": "e65b29bd4900e4ac1cdea0ae93e5ec18",
     "url": "/index.html"
   }
 ];
