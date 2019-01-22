@@ -35,7 +35,6 @@ export default class CitySearchForm extends Component {
     CitySearchForm.instancesCreated += 1;
     this.instancesCreated += 1;
     this.elementId = 'citySearchAutocomplete' + CitySearchForm.instancesCreated;
-    console.log(this.elementId);
 
     // bind callbacks to class
     this.onSelectCity = this.onSelectCity.bind(this);
