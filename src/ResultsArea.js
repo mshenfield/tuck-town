@@ -20,8 +20,8 @@ const ResultsArea = props => {
       : ' ' + Math.round(props.closestCity.distance) + ' miles away';
 
   return (
-    <div class="ResultsArea">
-      <div class="ResultsArea-content">
+    <div className="ResultsArea">
+      <div className="ResultsArea-content">
         <h2>CLOSEST RUGIRLS</h2>
         <h3>
           {props.closestCity.name}
