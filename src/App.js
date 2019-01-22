@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 import minBy from 'lodash.minby';
 
-import CitySearchForm from './CitySearchForm.js';
-import QueensList from './QueensList.js';
+import Hero from './Hero.js';
+import ResultsArea from './ResultsArea.js';
 
-import logo from './logo.svg';
+import './normalize.css';
 import './App.css';
 
 // cityCoords were manually generated
@@ -77,38 +77,10 @@ class App extends Component {
   }
 
   render() {
-    var queensList = null;
-    if (this.state.closest) {
-      const closestQueens = queens.filter(
-        q => q.hometown === this.state.closest.name
-      );
-      queensList = (
-        <QueensList closestCity={this.state.closest} queens={closestQueens} />
-      );
-    }
-
     return (
       <div>
-        <div className="HeroImage">
-          <div className="HeroImage-content">
-            <nav>
-              <img alt="Tuck Town logo" className="logo" src={logo} />
-            </nav>
-            <div className="Separator" />
-            <div className="HeroImage-cta">
-              <header>
-                <h1>Find the Closest Rupaul’s Drag Race Queen!</h1>
-              </header>
-              <CitySearchForm
-                className="CitySearchForm"
-                handleSelectCity={this.handleSelectCity}
-              />
-            </div>
-          </div>
-        </div>
-        <main>
-          <div className="Content">{queensList}</div>
-        </main>
+        <Hero handleSelectCity={this.handleSelectCity} />
+        <ResultsArea queens={queens} closestCity={this.state.closest} />
       </div>
     );
   }

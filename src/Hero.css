@@ -1,0 +1,42 @@
+.Hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.74),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('neon-rainbow.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+  min-height: 450px;
+  width: 100vw;
+}
+
+.Hero .Hero .Nav-separator {
+  border-bottom: 1px solid #747474;
+  width: 100vw;
+}
+
+.Hero .Nav-logo {
+  max-width: 200px;
+  /* Roughly 4 columns in a 12 column grid */
+  width: 33%;
+  margin: 16px;
+}
+
+.Hero-content {
+  box-sizing: border-box;
+  margin: 0px auto;
+  max-width: 636px;
+  padding: 16px;
+  /* position, top, and transform work together to vertically center content */
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.HeroImage-header {
+  text-align: center;
+}

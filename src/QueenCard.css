@@ -1,26 +1,24 @@
 .QueenCard {
   border: 1px solid #ededed;
   box-shadow: 9px 13px 24px 0 rgba(0, 0, 0, 0.22);
-  list-style: none;
-  margin: 16px;
+  box-sizing: border-box;
+  height: 180px;
+  padding: 16px;
+  margin: 16px 0px;
+  width: 100%;
 }
 
 .QueenCard > div {
-  padding: 16px;
-  max-width: 600px;
+  display: inline-block;
 }
 
-.QueenCard .col1 {
-  display: inline-block;
+.QueenCard-image {
+  height: 100%;
+  object-fit: contain;
   width: 33%;
 }
 
-.QueenCard .col2and3 {
-  display: inline-block;
-  padding: 16px;
-  width: 55%;
-}
-
-.QueenCard img {
-  width: 100%;
+.QueenCard-content {
+  margin-left: 16px;
+  vertical-align: top;
 }

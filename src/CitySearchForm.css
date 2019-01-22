@@ -1,0 +1,17 @@
+/* We have to repeate a lot of values here to override the default styling */
+.CitySearchForm-input {
+  background-color: rgba(87, 87, 87, 0.59);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 0px;
+  /* This pushes the entire text box to the right, compensate by reducing width */
+  padding-left: 8px;
+  /* Because this is absolutely positioned, we have to do some tricks */
+  width: calc(100% - 8px);
+}
+
+/* Make the placeholder match the text color */
+.CitySearchForm-input::placeholder {
+  opacity: 1;
+}

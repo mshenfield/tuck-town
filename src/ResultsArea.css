@@ -1,0 +1,14 @@
+.ResultsArea {
+  background-color: white;
+  color: #4a4a4a;
+  width: calc(100% - 32px);
+  padding: 16px;
+  position: relative;
+  top: -50px;
+}
+
+.ResultsArea-content {
+  margin: 0px auto;
+  max-width: 636px;
+  width: 100%;
+}

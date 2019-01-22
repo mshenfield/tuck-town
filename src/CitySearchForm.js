@@ -4,6 +4,8 @@
  */
 import React, { Component } from 'react';
 
+import './CitySearchForm.css';
+
 /* Google Maps Autocomplete widget that returns locations
 
 This is tightly coupled to the App. Only one can exist
@@ -17,6 +19,8 @@ order to populate google.maps.places in the
 global namespace.
 */
 export default class CitySearchForm extends Component {
+  static instancesCreated = 0;
+
   /*
         props.handleSelectCity - function(google.maps.places.PlaceResult). A function
             which accepts a PlaceResult object with formatted_address and geography
@@ -27,8 +31,11 @@ export default class CitySearchForm extends Component {
     super(props);
     this.autocomplete = null;
     this.autocomplete_listener_id = null;
-    this.elementId = 'citySearchAutocomplete';
     this.selectCityHook = props.handleSelectCity;
+    CitySearchForm.instancesCreated += 1;
+    this.instancesCreated += 1;
+    this.elementId = 'citySearchAutocomplete' + CitySearchForm.instancesCreated;
+    console.log(this.elementId);
 
     // bind callbacks to class
     this.onSelectCity = this.onSelectCity.bind(this);
@@ -98,6 +105,7 @@ export default class CitySearchForm extends Component {
         {/* Uncontrolled input used by the autocomplete object*/}
         <input
           id={this.elementId}
+          className="CitySearchForm-input"
           type="text"
           placeholder="Enter a City or Postal Code"
         />

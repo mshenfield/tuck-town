@@ -1,86 +1,12 @@
 html {
-  box-sizing: border-box;
   font-size: 16px;
   font-family: 'Arial', sans-serif;
 }
 
-.HeroImage {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.74),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('neon-rainbow.jpg');
-  background-position: center;
-  background-size: auto 100%;
-  color: #fff;
-  height: 100vh;
-}
-
-.HeroImage-content {
-  padding: 16px;
-  margin: auto;
-}
-
-.HeroImage-cta {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-}
-
-.Separator {
-  border-bottom: 1px solid #747474;
-  width: 100vw;
-  margin-left: -16px;
-}
-nav .logo {
-  max-width: 200px;
-  /* Roughly 4 columns in a 12 column grid */
-  width: 33%;
-  margin-bottom: 16px;
-}
-
-h1 {
-  font-size: 24px;
-  text-align: center;
-}
-
+h1,
 h2 {
   font-size: 24px;
 }
-
 h3 {
   font-size: 21px;
-}
-
-/* We have to repeate a lot of values here to override the default styling */
-#citySearchAutocomplete {
-  background-color: rgba(87, 87, 87, 0.59);
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  padding: 16px 0px;
-  /* This pushes the entire text box to the right, compensate by reducing width */
-  padding-left: 8px;
-  /* Because this is absolutely positioned, we have to do some tricks */
-  width: calc(100% - 8px);
-}
-
-/* Make the placeholder match the text color */
-#citySearchAutocomplete::placeholder {
-  opacity: 1;
-}
-
-main {
-  background-color: white;
-  color: #4a4a4a;
-  margin-top: -70px;
-}
-
-main .Content {
-  margin: 16px;
-}
-
-.QueensList {
-  padding-left: 0;
 }
