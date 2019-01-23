@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/neon-rainbow.2c48a185.jpg"
   },
   {
-    "revision": "51ea81a84481319bd08b2e9de855e8d8",
+    "revision": "5ddaf0bb9bf44887ee164fd22028f1ca",
     "url": "/index.html"
   }
 ];
