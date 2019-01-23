@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f7f2334006c7dfa67f8d",
-    "url": "/static/css/main.2db3ceb8.chunk.css"
+    "revision": "70ea5246211c928968d6",
+    "url": "/static/css/main.df18b0ab.chunk.css"
   },
   {
-    "revision": "f7f2334006c7dfa67f8d",
-    "url": "/static/js/main.f7f23340.chunk.js"
+    "revision": "70ea5246211c928968d6",
+    "url": "/static/js/main.70ea5246.chunk.js"
   },
   {
     "revision": "02620be559af28a58838",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/neon-rainbow.2c48a185.jpg"
   },
   {
-    "revision": "66246cd6786b8f3f85ed6683aa09ea3f",
+    "revision": "51ea81a84481319bd08b2e9de855e8d8",
     "url": "/index.html"
   }
 ];
