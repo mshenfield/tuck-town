@@ -21,4 +21,9 @@
 .QueenCard-content {
   margin-left: 16px;
   vertical-align: top;
+  /* Set a width so the content
+   * wraps instead of pushing
+   * the entire div to another line
+   */
+  width: 60%;
 }
